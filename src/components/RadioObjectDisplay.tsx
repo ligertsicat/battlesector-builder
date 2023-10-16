@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Weapon from "../Weapon";
 
 interface RadioObjectDisplayProps {

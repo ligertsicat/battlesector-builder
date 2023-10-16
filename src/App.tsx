@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
-import Button from "./Button";
 import UnitButton2 from "./UnitButton2";
 import Unit from "./Unit";
 import Weapon from "./Weapon";
-import CustomTooltip from "./Tooltip";
 import RadioObjectDisplay from "./components/RadioObjectDisplay";
-import ListObjects from "./components/ListObjects";
 import Papa, { ParseResult } from "papaparse";
 
 type UnitData = {
@@ -40,14 +37,6 @@ type WeaponData = {
 };
 
 //unit_type,unit_name,weapon,points,unit_count,hp,armor,ap,mp,evasion,abilities,notes
-
-type Values = {
-  data: Data[];
-};
-
-type WeaponValues = {
-  data: WeaponData[];
-};
 
 function App() {
   const initValues: UnitData[] = [];
@@ -101,7 +90,7 @@ function App() {
   console.log(unitList2);
   console.log("unitList2");
 
-  const [selectedArmy, setSelectedArmy] = useState(-1);
+  //const [selectedArmy, setSelectedArmy] = useState(-1);
 
   const Claws: Weapon = {
     name: "claws",

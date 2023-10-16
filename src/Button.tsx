@@ -9,7 +9,7 @@ const Button = ({ buttonName, color = "primary", onClickEvent }: Props) => {
     <button
       type="button"
       className={"btn btn-" + color}
-      style={{ padding: 10px 20px;}}
+      style={{ padding: "10px 20px" }}
       onClick={() => {
         onClickEvent();
       }}
