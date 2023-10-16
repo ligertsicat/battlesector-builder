@@ -1,0 +1,191 @@
+body {
+	background: #0e0e0e url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQYV2P8//+/FCMj4zMGJMCIzIGxKRQEAJgPBAbJqUVTAAAAAElFTkSuQmCC) repeat;
+	display: flex;
+	height: 100vh;
+	font-family: 'Barlow', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	background-color: #f5d546;
+	padding: 0 5px 3px 5px;
+	color: #1c1c1c;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 32px;
+	letter-spacing: 2px;
+	margin: 20px 0 10px;
+	border: 1px #f5d546 solid;
+	border-radius: 5px;
+}
+
+h1, p {
+	font-weight: 500;
+}
+
+p {
+	opacity: 0.3;
+	margin: 0 0 10px 0;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #f5d546;
+}
+
+a:hover {
+	background: #f5d546;
+	color: #111;
+	text-decoration: none;
+}
+
+#shot {
+	width: 400px;
+	margin: auto;
+	position: relative;
+}
+
+#shot .card {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	background: linear-gradient(0deg, rgba(245, 213, 70, 0.1) 0%, rgba(17, 17, 17, 0) 100%);
+	border: 1px #f5d546 solid;
+	border-radius: 5px;
+	animation: entrance 400ms 800ms linear backwards 1;
+}
+
+#shot .card #component {
+	margin: auto;
+}
+
+#shot .description {
+	animation: entrance 400ms 1000ms linear backwards 1;
+}
+
+#shot .title {
+	height: 100%;
+	width: 5px;
+	position: absolute;
+	top: 0;
+	left: -50px;
+	background: #f5d546;
+	animation: entrance 400ms 1200ms linear backwards 1;
+}
+
+#shot .title::before {
+	content: 'Battlesector .';
+	text-transform: uppercase;
+	text-align: right;
+	position: absolute;
+	left: -92px;
+	top: -17px;
+	transform-origin: 100% 100%;
+	transform: rotateZ(-90deg);
+	font-weight: 500;
+}
+
+#shot .options {
+	width: 200px;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	top: 0;
+	right: -220px;
+	animation: entrance 400ms 1400ms linear backwards 1;
+}
+
+#shot .options button {
+	height: 40px;
+	padding: 0 10px;
+	margin: 0 10px 15px 0;
+	border: 2px #111 solid;
+	outline: 1px #f5d546 solid;
+	background-color: transparent;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #fff;
+	cursor: pointer;
+	transition: 300ms all ease-out;
+}
+
+#shot .options button:hover, 
+#shot .options button:focus, 
+#shot .options button.active {
+	background-color: rgba(245, 213, 70, 0.5);
+}
+
+#shot .options button.active {
+	border: 2px #f5d546 solid;
+	background-color: rgba(245, 213, 70, 1);
+	color: #1c1c1c;
+}
+
+/* entrance animation */
+@-webkit-keyframes entrance {
+	to, 20%, 40%, 60%, 80% {
+		opacity: 1;
+	}
+	from, 10%, 30%, 50%, 70%, 90% {
+		opacity: 0;
+	}
+}
+
+
+
+
+body {
+    background-color: #282c34;
+    color: white;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+  
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.custom-buffered-button {
+	margin: 10px 10px; /* Adjust the values as needed */
+  }
+
+  .item-details {
+	display: none; /* Initially hide details */
+	position: absolute; /* Position the details absolutely */
+	top: 100%; /* Place it below the item text */
+	left: 0; /* Align it with the left edge of the item */
+	background-color: #f0f0f0; /* Add a background color or other styles */
+	padding: 10px; /* Add padding or other styles */
+  }
+  
+  li:hover .item-details {
+	display: block; /* Show details on hover */
+  }
+
+  /* styles.css */
+.tooltip-trigger {
+	position: relative;
+	background-color: #0074d9;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .tooltip {
+	position: absolute;
+	background-color: #333;
+	color: #fff;
+	padding: 5px;
+	border-radius: 4px;
+	pointer-events: none; /* Allows mouse events to pass through the tooltip */
+  }
