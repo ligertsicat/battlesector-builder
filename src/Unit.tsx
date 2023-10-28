@@ -1,16 +1,24 @@
 import Weapon from "./Weapon";
+import Ability from "./Ability";
 
 type Unit = {
   name: string;
-  faction: string;
-  points: number;
-  hp: number;
-  unit_members: number;
-  action_points: number;
-  movement_points: number;
   weapons: Weapon[];
-  weapon_selected: number;
-  abilities: string[];
+  weapons_raw: string[];
+  points: number;
+  unit_count: number;
+  hp: number;
+  armor: number;
+  ap: number;
+  mp: number;
+  evasion: number;
+  abilities: Ability[];
+  abilities_raw: string[];
+  notes: string;
+
+  unit_type?: string;
+  weapon_selected?: number;
+  faction?: string;
 };
 
 export default Unit;

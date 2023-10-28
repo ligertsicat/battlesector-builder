@@ -49,6 +49,15 @@
     background-color: orange;
 }
 
+.points {
+	font-size: 10px;
+}
+
+.abilities {
+	font-size: 15px;
+	margin-top: 5px;
+}
+
 body {
 	background: #0e0e0e url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQYV2P8//+/FCMj4zMGJMCIzIGxKRQEAJgPBAbJqUVTAAAAAElFTkSuQmCC) repeat;
 	height: 100vh;
@@ -154,12 +163,12 @@ a:hover {
 
 #shot .scifi_button {
 	height: 40px;
-	padding: 0 10px;
+	padding: 0 8px;
 	margin: 0 10px 15px 0;
 	border: 2px #111 solid;
 	outline: 1px #f54646 solid;
 	background-color: transparent;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	color: #fff;
 	cursor: pointer;
