@@ -2,7 +2,7 @@ import Weapon from "../Weapon";
 
 interface RadioObjectDisplayProps {
   data: Weapon[]; // Assuming the data is an object with keys and corresponding text
-  selected: number;
+  selected?: number;
   onDataEmit: (data: number) => void;
 }
 

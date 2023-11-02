@@ -1,7 +1,6 @@
 import { useState } from "react";
 import UnitButton2 from "./UnitButton2";
 import Unit from "./Unit";
-import Weapon from "./Weapon";
 import { ParseCSV } from "./ParseCSV";
 import RadioObjectDisplay from "./components/RadioObjectDisplay";
 import jsonData from "./data.json"; // Import the JSON file
@@ -18,14 +17,11 @@ function App() {
   const [viewUnit, setViewUnit] = useState(0);
   const [viewArmyUnit, setviewArmyUnit] = useState(0);
 
-  const [weaponSelected, setWeaponSelected] = useState(0);
-
   const [points, setPoints] = useState(0);
   const [unitCount, setUnitCount] = useState(0);
 
   const onWeaponSelectEmit = (data: number) => {
     //viewUnit.weapon_selected = data;
-    setWeaponSelected(data);
 
     setUnitList(
       unitList.map((item, index) => {
@@ -72,7 +68,6 @@ function App() {
                           onClick={() => {
                             const myunit: Unit = {
                               ...unitList[index],
-                              weapon_selected: weaponSelected,
                             };
                             setarmyList([...armyList, myunit]);
                             setPoints(
