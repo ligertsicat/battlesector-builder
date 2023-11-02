@@ -1,22 +1,33 @@
 type,name,unit,attacks,damage_armor_pen,splash_damage,range_optimal,accuracy_falloff,ap_cost,ammo,cooldown,notes                                                                                               
-Ranged,Heavy Venom Cannon,Hive Tyrant,1,60-80 (5),12-16 (x2),1-6 (5),95 (-10),1,X,X,
-,Devourer,Warrior,8,3-5 (2),X,1-5 (3),75 (-10),1,X,X,
-,Deathspitter,Warrior,8,5-7 (3),X,1-6 (4),85 (-10),1,X,X,
-,Impaler Cannon,Hive Guard,3,15-20 (4),X,1-7 (4),75 (-10),1,X,X,Ignore Partial cover
-,Devourer with Brainleech Worms,Thornback,14,4-6 (3),X,1-5 (3),75 (-10),1,X,X,
-,Deathspitter with slimer maggots,Thornback,8,12-16 (4),X,1-6 (4),80 (-10),1,X,X,
-,Bioplasmic Cannon,Exocrine,1,67-90 (6),X,1-9 (7),80 (-15),1,X,X,Exocrine has splash ability
-,Acid Spray,Tyrannofex,10,6-9 (3),X,1-2 (1),X,1,X,X,Always attacks 2 squares. Can friendly-fire
-,Fleshborer,Gargoyle,3,3-5 (1),X,1-3 (2),80 (-5),1,X,X,
-,,Termagaunt,,,,,,1,X,X,
-Melee,Monstrous Scything Talons,Hive Tyrant,1,90-120 (8),72-96 (x2),Melee,95,1,X,X,High damage in melee can overwhelm the enemy and force a retreat (by 1 square)**
-,Massive Crushing Claws,Tervigon,1,67-90 (9),53-72 (x2),Melee,95,1,X,X,
-,Monstrous Rending Claws,Broodlord,3,30-40 (8),24-32 (x1),Melee,95,1,X,X,
-,Scything Talons,Warriors,3,14-19 (5),X,Melee,95,1,X,X,
-,Toxic Lash,Venomthrope,1,37-50 (3),X,Melee,95,1,X,X,
-,Massive Scything Talons,Trygon,1,90-120 (8),31-42 (x3),Melee,95,1,X,X,
-,Monstrous Scything Talons,Thornback,3,28-38 (8),22-30 (x1),Melee,95,1,X,X,
-,Powerful Limbs,Excorine,1,60-80 (6),36-48 (x1),Melee,95,1,X,X,
-,,Tyrannofex,,,,,,1,X,X,
-,Rending Claws,Genestealer,1,16-22 (6),X,Melee,95,1,X,X,
-,Scything Talons,Hormagaunt,1,9-12 (4),X,Melee,95,1,X,X,
+Pistol,Slugga,Stormboyz,4,3-5 (1),X,1-3 (1),90 (-15),1,X,X,Triggers Pistol Reaction Attacks
+,Slugga,Nobz,,,,,,,,,
+,Grot Blasta,Gretchin,4,3-4 (1),X,1-3 (1),90 (-15),1,X,X,Triggers Pistol Reaction Attacks. Might have a Zone of Control (saw it in campaign)
+Melee Weapons,,,,,,,,,,,High damage in melee can overwhelm the enemy and force a retreat (by 1 square)**
+,Power Klaw,Warboss,1,75-100 (7),30-40 (x4),1,n/a,1,,,
+,Power Klaw,Big Mek,1,56-75 (6),28-37 (x2),1,n/a,1,,,
+,Power Klaw,Nobz,1,30-40 (6),X,1,n/a,1,,,"-10% to Damage Recieved, +1 Armor, Paired only with the Thunder Hammer ugrade"
+,Killsawz,Meganobz,1,45-60 (8),13-18 (x4),1,n/a,1,,,
+,Dread Klaw,Deff Dread,,,,,,,,,
+,Choppa,Stormboyz,2,10-14 (4),X,1,n/a,1,,,
+,Choppa,Nobz,2,12-16 (4),X,1,n/a,1,,,
+,Big Choppa,Nobz,2,13-18 (5),X,1,n/a,1,,,
+,Weirdboy Staff,Weirdboy,2,30-40 (4),18-24 (x1),1,n/a,1,X,X,
+Shoota,Shoota,Warboss,16,5-7 (3),X,1-4 (2),90 (-10),1,X,X,
+,Shoota,Boyz,12,3-4 (2),X,1-4 (2),70 (-5),1,X,X,
+,Shoota,Meganobz,16,3-4 (2),X,1-4 (2),80 (-10),0,X,2,Available only with the Kombi-Rokkit and Kombi-Skorcha Upgrades
+,Snazzgun,Flash Gitz,8,7-10 (4),X,1-6 (4),70 (-15),1,X,X,
+,Kustom Shoota,Meganobz,20,3-5 (2),X,1-4 (2),90 (-10),1,X,X,
+,Shooty Deffgun,Lootas,12,3-5 (3),0-1 (1),1-8 (5),80 (-10),1,X,X,
+,Big Shoota,Boyz,14,3-5 (2),X,1-8 (4),80 (-10),1,X,X,
+,Big Shoota,Deff Dread,32,4-6 (3),X,1-8 (4),85 (-10),1,X,X,
+,Dakkagun,Warbiker,40,3-5 (2),X,1-4  (2),70 (-10),1,X,X,
+Rokkit,Kombi-Rokkit,Warboss,1,22-30 (3),19-27 (x8),2-8 (5),100 (-5),1,2,1,Ammunition Reload Time: 3
+,Kombi-Rokkit,Meganobz,1,30-40 (4),18-24 (x5),1-6 (4),90 (-10),1,1,X,Ammunition Reload Time: 2
+,Kopta Rokkits,Deffkopta,1,33-45 (3),26-36 (x4),1-6 (4),90 (-15),1,3,X,Ammunition Reload Time: 2
+,Rokkit Launcher,Boyz,1,15-20 (3),9-12 (x4),1-6 (4),90 (-15),1,2,X,Ammunition Reload Time: 2
+Flame,Burna,Burna Boyz,8,2-3 (3),Flame,1-2 (1),Flame,1,X,X,Flame attacks hit every enemy model in a unit per attack**. Always attacks 2 squares. Can friendly-fire.
+,Kombi-Skorcha,Meganobz,6,3-5 (3),Flame,1-2 (1),Flame,1,X,X,Always attacks 2 squares. Can friendly-fire
+,Skorcha,Deff Dread,10,6-9 (3),Flame,1-2 (1),Flame,1,X,X,
+Fancy Gunz,Beamy Deffgun,Loota,1,24-32 (6),X,1-8 (5),80 (-10),1,X,X,Trukk Smasha: +1 Ranged Armor Piercing against Vehicles. +20 Ranged crit chance vs. vehicles. +25% Ranged damage vs. vehicles.
+,Kustom Mega-Blasta,Big Mek,1,52-70 (6),X,1-6 (3),90 (-10),1,X,X,
+,Kustom Mega-Blasta,Deffkopta,,,,,,,,,

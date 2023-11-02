@@ -3,9 +3,39 @@ import UnitButton2 from "./UnitButton2";
 import Unit from "./Unit";
 import { ParseCSV } from "./ParseCSV";
 import RadioObjectDisplay from "./components/RadioObjectDisplay";
-import jsonData from "./data.json"; // Import the JSON file
+import jsonData from "./data.json";
+import bloodAngelUnits from "./data_bloodangel.json";
+import necronUnits from "./data_necrons.json";
+import sistersofbattleUnits from "./data_sob.json";
+import orkUnits from "./data_orks.json";
 
 function App() {
+  const [selectedValue, setSelectedValue] = useState("0");
+
+  const handleSelectChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setSelectedValue(event.target.value);
+
+    if (event.target.value === "0") {
+      setUnitList(jsonData);
+    }
+    if (event.target.value === "1") {
+      setUnitList(bloodAngelUnits);
+    }
+    if (event.target.value === "2") {
+      setUnitList(necronUnits);
+    }
+    if (event.target.value === "3") {
+      setUnitList(sistersofbattleUnits);
+    }
+    if (event.target.value === "4") {
+      setUnitList(orkUnits);
+    }
+
+    setarmyList([]);
+    setPoints(0);
+    setUnitCount(0);
+  };
+
   const unitList2 = ParseCSV();
   console.log(JSON.stringify(unitList2));
 
@@ -49,6 +79,20 @@ function App() {
 
         <div className="columns-3">
           <div className="column1">
+            <select
+              className="form-select armySelect"
+              aria-label="Default select example"
+              onChange={handleSelectChange}
+              value={selectedValue}
+            >
+              <option selected value="0">
+                Tyranids
+              </option>
+              <option value="1">Blood Angels</option>
+              <option value="2">Necrons</option>
+              <option value="3">Sisters of Battle</option>
+              <option value="4">Orks</option>
+            </select>
             <div className="card overflow-auto">
               <div id="component">
                 <div className="options">
@@ -56,7 +100,7 @@ function App() {
                     {unitList.map((object, index) => (
                       <div>
                         <UnitButton2
-                          text={object.name}
+                          text={truncate(object.name, 15)}
                           onClick={() => {
                             setViewUnit(index);
                             setviewArmyUnit(-1);
@@ -64,7 +108,7 @@ function App() {
                         />
                         <button
                           type="button"
-                          className="scifi_button"
+                          className="scifi_button_small"
                           onClick={() => {
                             const myunit: Unit = {
                               ...unitList[index],
@@ -78,25 +122,6 @@ function App() {
                         >
                           +
                         </button>
-                        <button
-                          type="button"
-                          className="scifi_button custom-buffered-button"
-                          onClick={() => {
-                            for (let i = armyList.length - 1; i >= 0; --i) {
-                              if (armyList[i].name == object.name) {
-                                armyList.splice(i, 1);
-                                break;
-                              }
-                            }
-                            setarmyList([...armyList]);
-                            setPoints(
-                              points - parseInt(unitList[index].points)
-                            );
-                            setUnitCount(unitCount - 1);
-                          }}
-                        >
-                          -
-                        </button>
                       </div>
                     ))}
                   </div>
@@ -106,7 +131,6 @@ function App() {
 
             <div className="description">
               <h1>Available Units</h1>
-              <p>Description</p>
             </div>
           </div>
           <div className="column2">
@@ -131,7 +155,7 @@ function App() {
                     {armyList.map((object, index) => (
                       <div>
                         <UnitButton2
-                          text={object.name}
+                          text={truncate(object.name, 15)}
                           onClick={() => {
                             setviewArmyUnit(index);
                             setViewUnit(-1);
@@ -139,15 +163,15 @@ function App() {
                         />
                         <button
                           type="button"
-                          className="scifi_button"
+                          className="scifi_button_small"
                           onClick={() => {
+                            setPoints(
+                              points - parseInt(armyList[index].points)
+                            );
+                            setUnitCount(unitCount - 1);
                             armyList.splice(index, 1);
                             console.log(armyList);
                             setarmyList([...armyList]);
-                            setPoints(
-                              points - parseInt(unitList[index].points)
-                            );
-                            setUnitCount(unitCount - 1);
                           }}
                         >
                           -
@@ -161,13 +185,16 @@ function App() {
 
             <div className="description">
               <h1>Army List</h1>
-              <p>Description</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   );
+}
+
+function truncate(str: string, maxlength: number) {
+  return str.length > maxlength ? str.slice(0, maxlength - 1) + "…" : str;
 }
 
 function RenderUnitView(

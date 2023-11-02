@@ -50,7 +50,9 @@
 }
 
 .points {
-	font-size: 10px;
+	font-size: 15px;
+	animation: entrance 400ms 1400ms linear backwards 1;
+
 }
 
 .abilities {
@@ -163,6 +165,23 @@ a:hover {
 
 #shot .scifi_button {
 	height: 40px;
+	width: 150px;
+	padding: 0 8px;
+	margin: 0 10px 15px 0;
+	border: 2px #111 solid;
+	outline: 1px #f54646 solid;
+	background-color: transparent;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #fff;
+	cursor: pointer;
+	transition: 300ms all ease-out;
+	overflow: hidden;
+}
+
+
+#shot .scifi_button_small {
+	height: 40px;
 	padding: 0 8px;
 	margin: 0 10px 15px 0;
 	border: 2px #111 solid;
@@ -257,3 +276,27 @@ body {
 	border-radius: 4px;
 	pointer-events: none; /* Allows mouse events to pass through the tooltip */
   }
+  
+  .btns {
+	text-align: right;
+  }
+
+
+  .btn-custom-purple {
+	background: transparent; /* Make the background transparent */
+	border: 2px solid purple; /* Set the border to purple */
+	color: purple; /* Text color */
+	/* Add any other styles as needed */
+  }
+  
+.btn-custom-purple.active,
+.btn-custom-purple:active {
+  color: yellow; /* Text color for contrast, you can adjust this as needed */
+  /* Add any other styles as needed */
+}
+
+.armySelect {
+	margin-bottom: 10px;
+	animation: entrance 400ms 1400ms linear backwards 1;
+
+}

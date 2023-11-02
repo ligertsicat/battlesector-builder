@@ -39,7 +39,7 @@ function FilterData(unitList: UnitData[], weaponList: WeaponData[]): Unit[] {
   console.log(unitList, "FilterData called");
   const units: Unit[] = [];
 
-  for (let i = 0; i < unitList.length - 1; i++) {
+  for (let i = 0; i < unitList.length; i++) {
     const u = unitList[i];
 
     let targetUnit = units.find((obj) => obj.name === u.name);
@@ -74,10 +74,16 @@ function FilterData(unitList: UnitData[], weaponList: WeaponData[]): Unit[] {
     }
   }
 
-  for (let i = 0; i < weaponList.length - 1; i++) {
-    const w = weaponList[i];
-    const targetUnit = units.find((obj) => obj.name === w.unit);
+  for (let i = 0; i < units.length; i++) {
+    console.log(units[i].name, "unit name!!!");
+  }
 
+  for (let i = 0; i < weaponList.length; i++) {
+    const w = weaponList[i];
+    console.log(w.unit, "weapon unit");
+    const targetUnit = units.find((obj) => obj.name.trim() === w.unit.trim());
+
+    console.log(targetUnit, "targetUnit");
     const tempWeapon: Weapon = {
       name: w.name,
       attacks: w.attacks,

@@ -1,0 +1,885 @@
+[
+  {
+    "name": "Lieutenant",
+    "weapons": [
+      {
+        "name": "Master-Crafted Bolt Pistol",
+        "attacks": "6",
+        "damage_armor_pen": "6-8 (3)",
+        "splash_damage": "X",
+        "range_optimal": "1-3 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Inferno Pistol",
+        "attacks": "1",
+        "damage_armor_pen": "30-40 (6)",
+        "splash_damage": "X",
+        "range_optimal": "1-2 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Chainsword",
+        "attacks": "2",
+        "damage_armor_pen": "33-45 (5)",
+        "splash_damage": "19-27 (x1)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Thunder Hammer",
+        "attacks": "1",
+        "damage_armor_pen": "86-115 (8)",
+        "splash_damage": "34-46 (x3)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Master-Crafted Bolt Pistol",
+      "B: Chainsword",
+      "A: Inferno Pistol",
+      "B: Thunder Hammer"
+    ],
+    "points": "165",
+    "unit_count": "1",
+    "hp": "225",
+    "armor": "5",
+    "ap": "2",
+    "mp": "4",
+    "evasion": "25",
+    "abilities": [],
+    "abilities_raw": [
+      "Jump Pack: +2 movement, -20% ranged accuracy, ignore terrain, will not provoke pistol reactions when charging, 1 turn duration, 2 CD, 0 AP",
+      "Tactical Precision:",
+      "Graces of the Angel:",
+      "Sword of Sanguinius:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Librarian",
+    "weapons": [
+      {
+        "name": "Master-Crafted Bolt Pistol",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Force Sword",
+        "attacks": "3",
+        "damage_armor_pen": "26-35 (8)",
+        "splash_damage": "18-24 (x2)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Master-Crafted Bolt Pistol",
+      "B: Force Sword"
+    ],
+    "points": "190",
+    "unit_count": "1",
+    "hp": "250",
+    "armor": "5",
+    "ap": "2",
+    "mp": "4",
+    "evasion": "15",
+    "abilities": [],
+    "abilities_raw": [
+      "Wings of Sanguinius:",
+      "Vision of Angeling Fury:",
+      "Blood Lance:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Librarian Dreadnought",
+    "weapons": [
+      {
+        "name": "Force Halberd",
+        "attacks": "1",
+        "damage_armor_pen": "90-120 (9)",
+        "splash_damage": "72-96 (x1)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Storm Bolter",
+        "attacks": "42",
+        "damage_armor_pen": "3-4 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-6 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Storm Bolter",
+      "B: Force Halberd"
+    ],
+    "points": "240",
+    "unit_count": "1",
+    "hp": "350",
+    "armor": "9",
+    "ap": "2",
+    "mp": "4",
+    "evasion": "-20",
+    "abilities": [],
+    "abilities_raw": [
+      "Shield of Sanguinius:",
+      "Shifting Sands:",
+      "Quickening:",
+      "Volatile: Explodes on death, dealing 52-70 damage at 3 armor piercing to units within 1 tile"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sanguinary Priest",
+    "weapons": [
+      {
+        "name": "Master-Crafted Bolt Pistol",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Chainsword",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Master-Crafted Bolt Pistol",
+      "B: Chainsword"
+    ],
+    "points": "145",
+    "unit_count": "1",
+    "hp": "180",
+    "armor": "5",
+    "ap": "2",
+    "mp": "4",
+    "evasion": "10",
+    "abilities": [],
+    "abilities_raw": [
+      "Heal Thy Brother:",
+      "Righteous Exhortation:",
+      "Embrace the Blood:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Techmarine",
+    "weapons": [],
+    "weapons_raw": [
+      "A: Master-Crafted Bolt Pistol",
+      "B: Power Axe"
+    ],
+    "points": "145",
+    "unit_count": "1",
+    "hp": "180",
+    "armor": "6",
+    "ap": "2",
+    "mp": "4",
+    "evasion": "5",
+    "abilities": [],
+    "abilities_raw": [
+      "Omnissiah's Touch:",
+      "Blessings of the Omnissiah:",
+      "Invoke the Machine Spirit:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Assault Terminators",
+    "weapons": [
+      {
+        "name": "Thunder Hammer",
+        "attacks": "1",
+        "damage_armor_pen": "51-68 (8)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Storm Shield",
+        "attacks": "X",
+        "damage_armor_pen": "X",
+        "splash_damage": "X",
+        "range_optimal": "X",
+        "ap_cost": "X",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Lightning Claw",
+        "attacks": "3",
+        "damage_armor_pen": "15-21 (6)",
+        "splash_damage": "6-8 (x1)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Lightning Claws",
+      "A: Thunder Hammer and Storm Shield"
+    ],
+    "points": "195 ",
+    "unit_count": "3",
+    "hp": "150",
+    "armor": "8",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "-10",
+    "abilities": [],
+    "abilities_raw": [
+      "Terminator Deep Strike:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Sanguinary Guard",
+    "weapons": [
+      {
+        "name": "Inferno Pistol",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Plasma Pistol",
+        "attacks": "3",
+        "damage_armor_pen": "9-12 (5)",
+        "splash_damage": "X",
+        "range_optimal": "1-3 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Encarmine Sword",
+        "attacks": "2",
+        "damage_armor_pen": "17-23 (7)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Encarmine Axe",
+        "attacks": "1",
+        "damage_armor_pen": "37-50 (8)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Angelus Boltgun",
+        "attacks": "14",
+        "damage_armor_pen": "2-3 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-4 (3)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Angelus Boltgun",
+      "B: Encarmine Sword",
+      "A: Plasma Pistol",
+      "A: Inferno Pistol",
+      "B: Encarmine Axe"
+    ],
+    "points": "185",
+    "unit_count": "5",
+    "hp": "80",
+    "armor": "6",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "10",
+    "abilities": [],
+    "abilities_raw": [
+      "Jump Pack: +2 movement, -20% ranged accuracy, ignore terrain, will not provoke pistol reactions when charging, 1 turn duration, 2 CD, 0 AP",
+      "Heirs of Azkaellon:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Furioso Dreadnought",
+    "weapons": [
+      {
+        "name": "Furioso Fist",
+        "attacks": "1",
+        "damage_armor_pen": "56-75 (8)",
+        "splash_damage": "33-45 (x2)",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Storm Bolter",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Meltagun",
+        "attacks": "1",
+        "damage_armor_pen": "135-180 (8)",
+        "splash_damage": "X",
+        "range_optimal": "1-4 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Heavy Flamer",
+        "attacks": "10",
+        "damage_armor_pen": "6-9 (3)",
+        "splash_damage": "Flame",
+        "range_optimal": "1-2 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Stormbolter",
+      "B: Furioso Fists",
+      "A: Meltagun",
+      "A: Heavy Flamer"
+    ],
+    "points": "165",
+    "unit_count": "1",
+    "hp": "300",
+    "armor": "9",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "-20",
+    "abilities": [],
+    "abilities_raw": [
+      "Volatile: Explodes on death, dealing 52-70 damage at 3 armor piercing to units within 1 tile",
+      "Frag Cannon:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Aggressors",
+    "weapons": [
+      {
+        "name": "Boltstorm Gauntlet (Melee)",
+        "attacks": "1",
+        "damage_armor_pen": "46-60 (8)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Flamestorm Gauntlet (Melee)",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Boltstorm Gauntlet",
+        "attacks": "24",
+        "damage_armor_pen": "2-3 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-3 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Flamestorm Gauntlet",
+        "attacks": "10",
+        "damage_armor_pen": "2-3 (3)",
+        "splash_damage": "Flame",
+        "range_optimal": "1-1 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Fragstorm Grenade Launcher",
+        "attacks": "1",
+        "damage_armor_pen": "7-10 (1)",
+        "splash_damage": "6-9 (7)",
+        "range_optimal": "4-5 (4)",
+        "ap_cost": "0",
+        "ammo": "X",
+        "cooldown": "3"
+      }
+    ],
+    "weapons_raw": [
+      "A: Boltstorm Gauntlet\r\n+ Boltstorm Gauntlet (Melee)\r\n+ Fragstorm-Grenade Launcher",
+      "A: Flamestorm Gauntlet\r\n+ Flamestorn Gauntlet (Melee)"
+    ],
+    "points": "120",
+    "unit_count": "3",
+    "hp": "125",
+    "armor": "7",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "-10",
+    "abilities": [],
+    "abilities_raw": [
+      "Hail of Fire:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Death Company",
+    "weapons": [
+      {
+        "name": "Bolt Pistol",
+        "attacks": "2",
+        "damage_armor_pen": "5-7 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-3 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Hand Flamer",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Chainsword",
+        "attacks": "2",
+        "damage_armor_pen": "10-14 (5)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Bolt Pistol",
+      "B: Chainsword",
+      "A: Hand Flamer"
+    ],
+    "points": "90",
+    "unit_count": "5",
+    "hp": "75",
+    "armor": "5",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "-5",
+    "abilities": [],
+    "abilities_raw": [
+      "Jump Pack: +2 movement, -20% ranged accuracy, ignore terrain, will not provoke pistol reactions when charging, 1 turn duration, 2 CD, 0 AP",
+      "Black Rage:",
+      "Fearless: Unit cannot use the Fallback Action, +65 Momentum"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Hellblasters",
+    "weapons": [
+      {
+        "name": "Plasma Incinerator",
+        "attacks": "4",
+        "damage_armor_pen": "6-9 (6)",
+        "splash_damage": "X",
+        "range_optimal": "1-8 (4)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Heavy Plasma Incinerator",
+        "attacks": "1",
+        "damage_armor_pen": "41-55 (7)",
+        "splash_damage": "X",
+        "range_optimal": "1-8 (5)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Plasma Incinerator",
+      "A: Heavy Plasma Incinerator"
+    ],
+    "points": "110",
+    "unit_count": "5",
+    "hp": "75",
+    "armor": "5",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "5",
+    "abilities": [],
+    "abilities_raw": [
+      "Supercharge:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Baal Predator",
+    "weapons": [
+      {
+        "name": "Storm Bolter",
+        "attacks": "18",
+        "damage_armor_pen": "3-4 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-6 (4)",
+        "ap_cost": "0",
+        "ammo": "X",
+        "cooldown": "2"
+      },
+      {
+        "name": "Twin Assault Cannon",
+        "attacks": "100",
+        "damage_armor_pen": "3-4 (4)",
+        "splash_damage": "X",
+        "range_optimal": "1-6 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Flamestorm Cannon",
+        "attacks": "20",
+        "damage_armor_pen": "4-6 (3)",
+        "splash_damage": "Flame",
+        "range_optimal": "1-2 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Twin Assault Cannon",
+      "B: Storm Bolter",
+      "A: Flamestorm Cannon"
+    ],
+    "points": "205",
+    "unit_count": "1",
+    "hp": "400",
+    "armor": "9",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "-15",
+    "abilities": [],
+    "abilities_raw": [
+      "Lucifer-Pattern Engine: +2 MP, -10 Range Stability, 1 turn duration",
+      "Volatile: Explodes on death, dealing 52-70 damage at 3 armor piercing to units within 1 tile"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Assault Squad",
+    "weapons": [
+      {
+        "name": "Bolt Pistol",
+        "attacks": "4",
+        "damage_armor_pen": "3-5 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-3 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Inferno Pistol",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Hand Flamer",
+        "attacks": "8",
+        "damage_armor_pen": "1-2 (2)",
+        "splash_damage": "Flame",
+        "range_optimal": "1-1 (1)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Chainsword",
+        "attacks": "1",
+        "damage_armor_pen": "18-24 (5)",
+        "splash_damage": "X",
+        "range_optimal": "Melee",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Bolt Pistol",
+      "B: Chainsword",
+      "A: Hand Flamer",
+      "A: Inferno Pistol"
+    ],
+    "points": "70",
+    "unit_count": "5",
+    "hp": "50",
+    "armor": "5",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "10",
+    "abilities": [],
+    "abilities_raw": [
+      "Jump Pack: +2 movement, -20% ranged accuracy, ignore terrain, will not provoke pistol reactions when charging, 1 turn duration, 2 CD, 0 AP",
+      "Krak Grenade:",
+      "Assault Tactics:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Inceptor",
+    "weapons": [
+      {
+        "name": "Assault Bolter",
+        "attacks": "26",
+        "damage_armor_pen": "2-3 (2)",
+        "splash_damage": "X",
+        "range_optimal": "1-4 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Plasma Exterminator",
+        "attacks": "12",
+        "damage_armor_pen": "4-6 (5)",
+        "splash_damage": "X",
+        "range_optimal": "1-4 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Assault Bolter",
+      "A: Plasma Exterminator"
+    ],
+    "points": "100",
+    "unit_count": "3",
+    "hp": "100",
+    "armor": "7",
+    "ap": "1",
+    "mp": "5",
+    "evasion": "5",
+    "abilities": [],
+    "abilities_raw": [
+      "Jump Pack: +2 movement, -20% ranged accuracy, ignore terrain, will not provoke pistol reactions when charging, 1 turn duration, 2 CD, 0 AP",
+      "Death From Above:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Land Speeder",
+    "weapons": [
+      {
+        "name": "Heavy Bolter",
+        "attacks": "20",
+        "damage_armor_pen": "6-8 (3)",
+        "splash_damage": "X",
+        "range_optimal": "1-8 (4)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Multimelta",
+        "attacks": "1",
+        "damage_armor_pen": "112-150 (8)",
+        "splash_damage": "X",
+        "range_optimal": "1-6 (3)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Heavy Bolter",
+      "A: Multimelta"
+    ],
+    "points": "95",
+    "unit_count": "1",
+    "hp": "225",
+    "armor": "6",
+    "ap": "1",
+    "mp": "6",
+    "evasion": "15",
+    "abilities": [],
+    "abilities_raw": [
+      "Datalink Telemetry:",
+      "Anti-Grav Uplift:",
+      "Hover:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Land Speeder Tornado",
+    "weapons": [
+      {
+        "name": "Heavy Bolter",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Assault Cannon",
+        "attacks": "54",
+        "damage_armor_pen": "3-4 (3)",
+        "splash_damage": "X",
+        "range_optimal": "1-4 (2)",
+        "ap_cost": "0",
+        "ammo": "X",
+        "cooldown": "2"
+      },
+      {
+        "name": "Multimelta",
+        "attacks": "",
+        "damage_armor_pen": "",
+        "splash_damage": "",
+        "range_optimal": "",
+        "ap_cost": "",
+        "ammo": "",
+        "cooldown": ""
+      },
+      {
+        "name": "Heavy Flamer",
+        "attacks": "10",
+        "damage_armor_pen": "6-9 (2)",
+        "splash_damage": "Flame",
+        "range_optimal": "1-2 (1)",
+        "ap_cost": "0",
+        "ammo": "X",
+        "cooldown": "2"
+      }
+    ],
+    "weapons_raw": [
+      "A: Heavy Bolter",
+      "B: Assault Cannon",
+      "A: Multimelta",
+      "B: Heavy Flamer"
+    ],
+    "points": "125",
+    "unit_count": "1",
+    "hp": "225",
+    "armor": "7",
+    "ap": "1",
+    "mp": "5",
+    "evasion": "10",
+    "abilities": [],
+    "abilities_raw": [
+      "Anti-Grav Uplift:",
+      "Hover:"
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Intercessors",
+    "weapons": [
+      {
+        "name": "Bolt Rifle",
+        "attacks": "8",
+        "damage_armor_pen": "3-5 (2)",
+        "splash_damage": "X",
+        "range_optimal": "1-8 (3)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      },
+      {
+        "name": "Auto Bolt Rifle",
+        "attacks": "16",
+        "damage_armor_pen": "3-4 (1)",
+        "splash_damage": "X",
+        "range_optimal": "1-6 (2)",
+        "ap_cost": "1",
+        "ammo": "X",
+        "cooldown": "X"
+      }
+    ],
+    "weapons_raw": [
+      "A: Bolt Rifle",
+      "A: Auto Bolt Rifle"
+    ],
+    "points": "70",
+    "unit_count": "5",
+    "hp": "75",
+    "armor": "5",
+    "ap": "1",
+    "mp": "4",
+    "evasion": "5",
+    "abilities": [],
+    "abilities_raw": [
+      "Battleline Tactics:",
+      "Frag Grenade:"
+    ],
+    "notes": ""
+  }
+]
